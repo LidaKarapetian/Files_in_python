@@ -31,7 +31,7 @@ def write_statuses_to_file(result, output_file_path):
             result_file.write(f"{file_name} -> {status}\n")
 
 def main():
-    dir_path =  '/home/lida/test'    #test directory path
+    dir_path =  '/home/lida/Desktop/Files_in_python/test'      #test directory path
     statuses = read_from_directory(dir_path)
     output_file_path = "../result.txt"
     check = check_file_existence(output_file_path)
