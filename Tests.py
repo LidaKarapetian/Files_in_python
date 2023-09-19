@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# We need to create "Tests" directory in which should be 10 files named today's month, date, hour, minute, second.
+# We need to create "Tests" directory in which should be 10 files named today's "month, date, hour, minute, second.log".
 # Files with an odd creation second should contain the "Status -> Fail" otherwise "Status -> Pass"
 
 import os
